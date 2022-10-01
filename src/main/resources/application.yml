@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: java-docker-executor
+server:
+  tomcat:
+    threads:
+      max: 2
+java-classes-dir: /opt/javas
+sh-script-dir: /opt
+exec-timeout-sec: 10
